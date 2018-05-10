@@ -1,0 +1,295 @@
+﻿namespace StokTakipOtomasyonu.Modul_Stok
+{
+    partial class frmStokListesi
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmStokListesi));
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
+            this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
+            this.btnTemizle = new DevExpress.XtraEditors.SimpleButton();
+            this.btnAra = new DevExpress.XtraEditors.SimpleButton();
+            this.txtBarkod = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.txtStokAdi = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.txtStokKodu = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.Liste = new DevExpress.XtraGrid.GridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.StokID = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.StokKodu = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.StokAdi = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.StokBarkod = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.StokGrupId = new DevExpress.XtraGrid.Columns.GridColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
+            this.xtraTabControl1.SuspendLayout();
+            this.xtraTabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBarkod.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStokAdi.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStokKodu.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Liste)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.xtraTabControl1);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.Liste);
+            this.splitContainer1.Size = new System.Drawing.Size(981, 489);
+            this.splitContainer1.SplitterDistance = 209;
+            this.splitContainer1.TabIndex = 0;
+            // 
+            // xtraTabControl1
+            // 
+            this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.xtraTabControl1.Location = new System.Drawing.Point(0, 0);
+            this.xtraTabControl1.Name = "xtraTabControl1";
+            this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
+            this.xtraTabControl1.Size = new System.Drawing.Size(209, 489);
+            this.xtraTabControl1.TabIndex = 0;
+            this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
+            this.xtraTabPage1});
+            // 
+            // xtraTabPage1
+            // 
+            this.xtraTabPage1.Controls.Add(this.btnTemizle);
+            this.xtraTabPage1.Controls.Add(this.btnAra);
+            this.xtraTabPage1.Controls.Add(this.txtBarkod);
+            this.xtraTabPage1.Controls.Add(this.labelControl3);
+            this.xtraTabPage1.Controls.Add(this.txtStokAdi);
+            this.xtraTabPage1.Controls.Add(this.labelControl2);
+            this.xtraTabPage1.Controls.Add(this.txtStokKodu);
+            this.xtraTabPage1.Controls.Add(this.labelControl1);
+            this.xtraTabPage1.Name = "xtraTabPage1";
+            this.xtraTabPage1.Size = new System.Drawing.Size(203, 461);
+            this.xtraTabPage1.Text = "Arama";
+            // 
+            // btnTemizle
+            // 
+            this.btnTemizle.ImageOptions.Image = global::StokTakipOtomasyonu.Properties.Resources.Sil32x32;
+            this.btnTemizle.Location = new System.Drawing.Point(109, 196);
+            this.btnTemizle.Name = "btnTemizle";
+            this.btnTemizle.Size = new System.Drawing.Size(81, 46);
+            this.btnTemizle.TabIndex = 4;
+            this.btnTemizle.Text = "Temizle";
+            this.btnTemizle.Click += new System.EventHandler(this.btnSil_Click);
+            // 
+            // btnAra
+            // 
+            this.btnAra.ImageOptions.Image = global::StokTakipOtomasyonu.Properties.Resources.Ara32x32;
+            this.btnAra.Location = new System.Drawing.Point(11, 196);
+            this.btnAra.Name = "btnAra";
+            this.btnAra.Size = new System.Drawing.Size(82, 46);
+            this.btnAra.TabIndex = 3;
+            this.btnAra.Text = "Ara";
+            this.btnAra.Click += new System.EventHandler(this.btnAra_Click);
+            // 
+            // txtBarkod
+            // 
+            this.txtBarkod.Location = new System.Drawing.Point(11, 154);
+            this.txtBarkod.Name = "txtBarkod";
+            this.txtBarkod.Size = new System.Drawing.Size(179, 20);
+            this.txtBarkod.TabIndex = 2;
+            this.txtBarkod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBarkod_KeyPress);
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Location = new System.Drawing.Point(11, 134);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(33, 13);
+            this.labelControl3.TabIndex = 0;
+            this.labelControl3.Text = "Barkod";
+            // 
+            // txtStokAdi
+            // 
+            this.txtStokAdi.Location = new System.Drawing.Point(11, 97);
+            this.txtStokAdi.Name = "txtStokAdi";
+            this.txtStokAdi.Size = new System.Drawing.Size(179, 20);
+            this.txtStokAdi.TabIndex = 1;
+            this.txtStokAdi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStokAdi_KeyPress);
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Location = new System.Drawing.Point(11, 77);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(39, 13);
+            this.labelControl2.TabIndex = 0;
+            this.labelControl2.Text = "Stok Adı";
+            // 
+            // txtStokKodu
+            // 
+            this.txtStokKodu.Location = new System.Drawing.Point(11, 41);
+            this.txtStokKodu.Name = "txtStokKodu";
+            this.txtStokKodu.Size = new System.Drawing.Size(179, 20);
+            this.txtStokKodu.TabIndex = 0;
+            this.txtStokKodu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStokKodu_KeyPress);
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Location = new System.Drawing.Point(11, 21);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(48, 13);
+            this.labelControl1.TabIndex = 0;
+            this.labelControl1.Text = "Stok Kodu";
+            // 
+            // Liste
+            // 
+            this.Liste.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Liste.Location = new System.Drawing.Point(0, 0);
+            this.Liste.MainView = this.gridView1;
+            this.Liste.Name = "Liste";
+            this.Liste.Size = new System.Drawing.Size(768, 489);
+            this.Liste.TabIndex = 0;
+            this.Liste.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            this.Liste.Click += new System.EventHandler(this.gridControl1_Click);
+            // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.StokID,
+            this.StokKodu,
+            this.StokAdi,
+            this.StokBarkod,
+            this.StokGrupId});
+            this.gridView1.GridControl = this.Liste;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.Click += new System.EventHandler(this.gridView1_Click);
+            // 
+            // StokID
+            // 
+            this.StokID.Caption = "StokID";
+            this.StokID.FieldName = "StokID";
+            this.StokID.Name = "StokID";
+            // 
+            // StokKodu
+            // 
+            this.StokKodu.Caption = "STOK KODU";
+            this.StokKodu.FieldName = "StokKodu";
+            this.StokKodu.Name = "StokKodu";
+            this.StokKodu.OptionsColumn.AllowEdit = false;
+            this.StokKodu.OptionsColumn.AllowFocus = false;
+            this.StokKodu.Visible = true;
+            this.StokKodu.VisibleIndex = 0;
+            // 
+            // StokAdi
+            // 
+            this.StokAdi.Caption = "STOK ADI";
+            this.StokAdi.FieldName = "StokAdi";
+            this.StokAdi.Name = "StokAdi";
+            this.StokAdi.OptionsColumn.AllowEdit = false;
+            this.StokAdi.OptionsColumn.AllowFocus = false;
+            this.StokAdi.Visible = true;
+            this.StokAdi.VisibleIndex = 1;
+            // 
+            // StokBarkod
+            // 
+            this.StokBarkod.Caption = "BARKOD";
+            this.StokBarkod.FieldName = "StokBarkod";
+            this.StokBarkod.Name = "StokBarkod";
+            this.StokBarkod.OptionsColumn.AllowEdit = false;
+            this.StokBarkod.OptionsColumn.AllowFocus = false;
+            this.StokBarkod.Visible = true;
+            this.StokBarkod.VisibleIndex = 2;
+            // 
+            // StokGrupId
+            // 
+            this.StokGrupId.Caption = "STOK GRUP";
+            this.StokGrupId.FieldName = "StokGrupId";
+            this.StokGrupId.Name = "StokGrupId";
+            this.StokGrupId.Visible = true;
+            this.StokGrupId.VisibleIndex = 3;
+            // 
+            // frmStokListesi
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(981, 489);
+            this.Controls.Add(this.splitContainer1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "frmStokListesi";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Stok Listesi";
+            this.Load += new System.EventHandler(this.frmStokListesi_Load);
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
+            this.xtraTabControl1.ResumeLayout(false);
+            this.xtraTabPage1.ResumeLayout(false);
+            this.xtraTabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBarkod.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStokAdi.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStokKodu.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Liste)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPage1;
+        private DevExpress.XtraEditors.SimpleButton btnTemizle;
+        private DevExpress.XtraEditors.SimpleButton btnAra;
+        private DevExpress.XtraEditors.TextEdit txtBarkod;
+        private DevExpress.XtraEditors.LabelControl labelControl3;
+        private DevExpress.XtraEditors.TextEdit txtStokAdi;
+        private DevExpress.XtraEditors.LabelControl labelControl2;
+        private DevExpress.XtraEditors.TextEdit txtStokKodu;
+        private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraGrid.GridControl Liste;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Columns.GridColumn StokID;
+        private DevExpress.XtraGrid.Columns.GridColumn StokKodu;
+        private DevExpress.XtraGrid.Columns.GridColumn StokAdi;
+        private DevExpress.XtraGrid.Columns.GridColumn StokBarkod;
+        private DevExpress.XtraGrid.Columns.GridColumn StokGrupId;
+    }
+}

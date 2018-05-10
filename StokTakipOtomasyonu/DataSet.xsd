@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet" targetNamespace="http://tempuri.org/DataSet.xsd" xmlns:mstns="http://tempuri.org/DataSet.xsd" xmlns="http://tempuri.org/DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet" msprop:Generator_UserDSName="DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SatisFaturasi" msprop:Generator_TableClassName="SatisFaturasiDataTable" msprop:Generator_TableVarName="tableSatisFaturasi" msprop:Generator_TablePropName="SatisFaturasi" msprop:Generator_RowDeletingName="SatisFaturasiRowDeleting" msprop:Generator_RowChangingName="SatisFaturasiRowChanging" msprop:Generator_RowEvHandlerName="SatisFaturasiRowChangeEventHandler" msprop:Generator_RowDeletedName="SatisFaturasiRowDeleted" msprop:Generator_UserTableName="SatisFaturasi" msprop:Generator_RowChangedName="SatisFaturasiRowChanged" msprop:Generator_RowEvArgName="SatisFaturasiRowChangeEvent" msprop:Generator_RowClassName="SatisFaturasiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Barkod" msprop:Generator_ColumnVarNameInTable="columnBarkod" msprop:Generator_ColumnPropNameInRow="Barkod" msprop:Generator_ColumnPropNameInTable="BarkodColumn" msprop:Generator_UserColumnName="Barkod" type="xs:string" minOccurs="0" />
+              <xs:element name="StokKodu" msprop:Generator_ColumnVarNameInTable="columnStokKodu" msprop:Generator_ColumnPropNameInRow="StokKodu" msprop:Generator_ColumnPropNameInTable="StokKoduColumn" msprop:Generator_UserColumnName="StokKodu" type="xs:string" minOccurs="0" />
+              <xs:element name="StokAdi" msprop:Generator_ColumnVarNameInTable="columnStokAdi" msprop:Generator_ColumnPropNameInRow="StokAdi" msprop:Generator_ColumnPropNameInTable="StokAdiColumn" msprop:Generator_UserColumnName="StokAdi" type="xs:string" minOccurs="0" />
+              <xs:element name="Birim" msprop:Generator_ColumnVarNameInTable="columnBirim" msprop:Generator_ColumnPropNameInRow="Birim" msprop:Generator_ColumnPropNameInTable="BirimColumn" msprop:Generator_UserColumnName="Birim" type="xs:string" minOccurs="0" />
+              <xs:element name="Miktar" msprop:Generator_ColumnVarNameInTable="columnMiktar" msprop:Generator_ColumnPropNameInRow="Miktar" msprop:Generator_ColumnPropNameInTable="MiktarColumn" msprop:Generator_UserColumnName="Miktar" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BirimFiyat" msprop:Generator_ColumnVarNameInTable="columnBirimFiyat" msprop:Generator_ColumnPropNameInRow="BirimFiyat" msprop:Generator_ColumnPropNameInTable="BirimFiyatColumn" msprop:Generator_UserColumnName="BirimFiyat" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KDV" msprop:Generator_ColumnVarNameInTable="columnKDV" msprop:Generator_ColumnPropNameInRow="KDV" msprop:Generator_ColumnPropNameInTable="KDVColumn" msprop:Generator_UserColumnName="KDV" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Toplam" msprop:Generator_ColumnVarNameInTable="columnToplam" msprop:Generator_ColumnPropNameInRow="Toplam" msprop:Generator_ColumnPropNameInTable="ToplamColumn" msprop:Generator_UserColumnName="Toplam" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
